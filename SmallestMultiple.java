@@ -14,6 +14,7 @@ public class SmallestMultiple {
         for (int i = 1; i <= 20; i++) {
             if (!(a % i == 0)) {
                 flag = false;
+                break;
 
             }
 
